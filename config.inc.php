@@ -38,8 +38,8 @@ Typecho_Common::init();
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
   'host' => 'aws.connect.psdb.cloud',
-  'user' => '0p3kschpj4h9zayi8h1y',
-  'password' => 'pscale_pw_rOXPhuiAydeM4ulbqtSnEoxe9887IpUPuPVoLxdhFf1',
+  'user' => 'aqgn48c0pojukq58r003',
+  'password' => 'pscale_pw_hKPyTYPk4dhB27g5lsXZQkRobfb3omtkQEWVBf2l6s5',
   'charset' => 'utf8mb4',
   'port' => '3306',
   'database' => 'hang',
