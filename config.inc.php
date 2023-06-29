@@ -44,6 +44,6 @@ $db->addServer(array (
   'port' => '3306',
   'database' => 'hang',
   'engine' => 'InnoDB',
-  'tls' => '/etc/pki/tls/certs/ca-bundle.crt'
+  'tls' => ''
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
