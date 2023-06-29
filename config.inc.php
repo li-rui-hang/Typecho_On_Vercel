@@ -38,11 +38,11 @@ Typecho_Common::init();
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
   'host' => 'aws.connect.psdb.cloud',
-  'user' => 'kz26me9tsuyzheakgeod',
-  'password' => 'pscale_pw_GYjGpmktMfkmdzZy3QM2IDZt6G1EOZrhcTmLxz6qqIZ',
+  'user' => '84priaymubm1p6i91xb2',
+  'password' => 'pscale_pw_txOHbmCl2QnmBuwKRhe0ejMYJKtUQNaZENYD90hMfk0',
   'charset' => 'utf8mb4',
   'port' => '3306',
-  'database' => 'hang',
+  'database' => 'typecho_on_vercel',
   'engine' => 'InnoDB',
   'tls' => '/etc/pki/tls/certs/ca-bundle.crt'
 ), Typecho_Db::READ | Typecho_Db::WRITE);
